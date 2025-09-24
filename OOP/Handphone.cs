@@ -1,15 +1,33 @@
-public class Handphone : PerangkatElektronik
+class Handphone : PerangkatElektronik
 {
-    public Handphone(string merk, int tahun, int harga)
-        : base(merk, tahun, harga) { }
+    public string OS { get; set; }
+    private readonly Baterai baterai; // Composition: Handphone has-a Baterai
 
+    public Handphone(string merek, int tahun, int harga, string os, string tipeBaterai, int kapasitasBaterai)
+        : base(merek, tahun, harga)
+    {
+        OS = os;
+        baterai = new Baterai(tipeBaterai, kapasitasBaterai); // isi sesuai input
+    }
+    
     public override void Info()
     {
-        Console.WriteLine($"Handphone {Merk}, keluaran {Tahun}, harga {Harga}");
+        base.Info();
+        Console.WriteLine($"OS: {OS}");
+        baterai.Info();
     }
 
-    public void Telepon(string nomor)
+        // Overloading
+    public void Info(bool denganDiskon)
     {
-        Console.WriteLine($"Menelpon {nomor} dari {Merk} 📞");
+        if (denganDiskon)
+            Console.WriteLine($"Handphone {Merk} dengan diskon: {Harga * 0.9}");
+        else
+            Info();
+    }
+
+    public static void Telepon(string nomor)
+    {
+        Console.WriteLine($"Menelpon {nomor}...");
     }
 }

@@ -1,10 +1,17 @@
+using System;
+
 public class Tablet : PerangkatElektronik
 {
-    public Tablet(string merk, int tahun, int harga)
-        : base(merk, tahun, harga) { }
+    public double UkuranLayar { get; private set; }
+
+    public Tablet(string merk, int tahun, int harga, double layar)
+        : base(merk, tahun, harga)
+    {
+        UkuranLayar = layar;
+    }
 
     public override void Info()
     {
-        Console.WriteLine($"Tablet {Merk}, keluaran {Tahun}, harga {Harga}");
+        Console.WriteLine($"Tablet {Merk}, tahun {Tahun}, harga {Harga}, layar {UkuranLayar} inch");
     }
 }

@@ -1,8 +1,10 @@
+using System;
+
 public class PerangkatElektronik
 {
     public string Merk { get; private set; }
     public int Tahun { get; private set; }
-    public int Harga { get; private set; }
+    public int Harga { get; protected set; } // child bisa modify
 
     public PerangkatElektronik(string merk, int tahun, int harga)
     {
@@ -16,6 +18,6 @@ public class PerangkatElektronik
         Console.WriteLine($"Perangkat Elektronik {Merk}, tahun {Tahun}, harga {Harga}");
     }
 
-    public void Nyalakan() => Console.WriteLine($"{Merk} dinyalakan ");
-    public void Matikan() => Console.WriteLine($"{Merk} dimatikan ");
+    public void Nyalakan() => Console.WriteLine($"{Merk} dinyalakan");
+    public void Matikan() => Console.WriteLine($"{Merk} dimatikan");
 }

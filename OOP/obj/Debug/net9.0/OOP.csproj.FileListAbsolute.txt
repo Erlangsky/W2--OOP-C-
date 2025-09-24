@@ -12,3 +12,17 @@ C:\Users\student\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\ref
 C:\Users\student\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\OOP.pdb
 C:\Users\student\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\OOP.genruntimeconfig.cache
 C:\Users\student\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\ref\OOP.dll
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\bin\Debug\net9.0\OOP.exe
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\bin\Debug\net9.0\OOP.deps.json
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\bin\Debug\net9.0\OOP.runtimeconfig.json
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\bin\Debug\net9.0\OOP.dll
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\bin\Debug\net9.0\OOP.pdb
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\OOP.AssemblyInfoInputs.cache
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\OOP.AssemblyInfo.cs
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\OOP.csproj.CoreCompileInputs.cache
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\OOP.dll
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\refint\OOP.dll
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\OOP.pdb
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\OOP.genruntimeconfig.cache
+C:\Users\angg4\OneDrive - Politeknik Astra\Desktop\C#\OOP\obj\Debug\net9.0\ref\OOP.dll
